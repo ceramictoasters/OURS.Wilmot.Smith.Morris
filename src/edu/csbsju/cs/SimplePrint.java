@@ -10,6 +10,7 @@ public class SimplePrint {
 	private int pAge;
 	
 	/**
+         * Main constuctor
 	 * @param pName
 	 * @param pAge
 	 */
@@ -20,14 +21,16 @@ public class SimplePrint {
 	}
 	
 	/**
-	 * Default
+	 * Default constructor
+	 * Sets variables to null or 0
 	 */
 	public SimplePrint() {
 		this.pName = null;
-		this.pAge = -1;
+		this.pAge = 0;
 	}
 
 	/**
+         * Main method this class
 	 * @param args
 	 */
 	public static void main(String[] args) {
